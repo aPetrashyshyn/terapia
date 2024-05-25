@@ -182,6 +182,7 @@ body {
 
     h2 {
         font-size: 24px;
+
     }
 
     h3 {
@@ -225,13 +226,34 @@ body {
         position: relative;
     }
 
+    .text-box-3d {
+        background-color: rgba(255, 255, 255, 0.214);
+        border: solid black 1px;
+        box-shadow: -3px 3px 5px black;
+        padding: 10px;
+        display: block;
+    }
+
     .trwa-nabor {
+        background-color: rgba(255, 255, 255, 0.214);
+        border: solid black 1px;
+        box-shadow: -3px 3px 5px black;
+        padding: 10px;
         color: var(--main-color-1);
         text-shadow: 1px 1px 1px var(--main-color-3);
         position: absolute;
         right: -30px;
         top: -40px;
-        transform: rotate(-5deg);
+        transform: rotate(-10deg);
+    }
+
+    .co-po-szkole {
+        width: fit-content;
+    }
+
+    .co-po-szkole-img {
+        display: inline;
+        height: 20px;
     }
 }
 
