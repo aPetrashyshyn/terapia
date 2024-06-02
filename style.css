@@ -59,11 +59,13 @@ body {
     padding: 0 10px;
     margin: 0 5px;
     border-radius: 5%;
+    border: 1px solid transparent;
 }
 
 .nav-link:hover {
     background-color: var(--main-color-2);
     border-radius: 10%;
+    border: solid var(--main-color-1) 1px;
 }
 
 .header__menu {
