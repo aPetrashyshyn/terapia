@@ -39,7 +39,7 @@ body {
 
 .header__contact-link, 
 .nav-link {
-    display: inline-block;
+    display: block;
     text-decoration: none;
 }
 
@@ -66,6 +66,15 @@ body {
     background-color: var(--main-color-2);
     border-radius: 10%;
     border: solid var(--main-color-1) 1px;
+}
+
+#nav--pracowni:target .nav__list {
+    flex-direction: column;
+}
+
+#nav--pracowni:target .nav-link {
+    padding: 25px;
+    font-size: 36px;
 }
 
 .header__menu {
@@ -299,6 +308,10 @@ body {
 .pracownia:target {
     pointer-events: all;
     opacity: 1;
+}
+
+.wsparczia-img {
+    width: inherit;
 }
 
 .footer {
